@@ -1,10 +1,10 @@
 {
-  "name": "blueasy",
+  "name": "web-starter",
   "version": "0.0.1",
   "description": "Personal project",
   "main": "",
-  "repository": "git@github.com:vigntom/web-blueasy.git",
-  "author": "Aleksandr Ignatev <vigntom@gmail.com>",
+  "repository": "",
+  "author": "",
   "license": "MIT",
   "private": true,
   "devDependencies": {
