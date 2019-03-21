@@ -1,0 +1,45 @@
+/* example
+.btn {
+  display: inline-block;
+  padding: 0.6em 0.25em 0.8em;
+  border: none;
+  background-color: $bg-primary-light;
+  color: $color-white;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $bg-primary;
+  }
+
+  &:active {
+    background-color: $bg-primary;
+    color: white(0.3);
+  }
+
+  &:disabled,
+  &.is-disabled {
+    background-color: black(0.3);
+    color: $color-white;
+  }
+}
+
+.btn--ghost {
+  border: 1px solid rgba($bg-primary, 0.1);
+  background-color: transparent;
+  color: $color-black;
+
+  &:hover {
+    border-color: rgba($bg-primary, 0.3);
+    background-color: inherit;
+  }
+
+  &:active {
+    background-color: rgba($bg-primary, 0.2);
+    color: black(0.3);
+  }
+}
+*/
