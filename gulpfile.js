@@ -230,7 +230,7 @@ function createBuildJS (dest) {
 
 function createBuildModernizr (dest) {
   const configModernizr = {
-    options: [],
+    options: ['setClasses'],
     tests: ['webp']
   }
 
